@@ -134,14 +134,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,3508);
 
 let audioStarted = false;
 
-document.addEventListener("click", () => {
-  if (!audioStarted) {
-    const audio = new Audio("assets/guiltTripping.mp3");
-    audio.loop = true;
-    audio.play();
-    audioStarted = true;
-  }
-});
+
 
 
 (lib._20250918_132111507_iOS = function() {
